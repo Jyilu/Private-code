@@ -1,0 +1,167 @@
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</tit// Simple JavaScript for handling any future interactions or dynamic behaviors
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Website Loaded and Ready!");
+});
+le>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Homepage -->
+        <section id="home">
+            <h1>Welcome to Our Website</h1>
+            <p>This is a fully responsive website created using HTML, CSS, and JavaScript.</p>
+        </section>
+
+        <!-- About Us Page (about.html) -->
+        <section id="about">
+            <h2>About Us</h2>
+            <p>We are a dedicated team of professionals who work hard to provide you with the best service. Our mission is to deliver quality solutions that make your life easier and more enjoyable.</p>
+            <p>Our team has years of experience in various fields, including web development, marketing, and design. We believe in creating innovative solutions that make a positive impact on our clients' lives.</p>
+        </section>
+
+        <!-- Privacy Policy Page (p// Simple JavaScript for handling any future interactions or dynamic behaviors
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Website Loaded and Ready!");
+});
+rivacy.html) -->
+        <section id="privacy">
+            <h2>Privacy Policy</h2>
+            <p>Your privacy is important to us. This privacy policy explains how we collect, use, and protect your information when you visit our website.</p>
+            <p>We collect personal data such as your name, email address, and browsing behavior. We use this information to improve your experience and provide personalized content. We will never share your data with third parties without your consent.</p>
+            <p>By using our website, you agree to the terms outlined in this policy. If you have any questions, feel free to contact us.</p>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Responsive Website. All Rights Reserved.</p>
+    </footer>
+
+    <!-- External JavaScript File -->
+    <script src="script.js"></script>
+</body>
+</html>
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f4;// Simple JavaScript for handling any future interactions or dynamic behaviors
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Website Loaded and Ready!");
+});
+
+}
+
+/* Header and Navigation */
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p {
+    margin-bottom: 20px;
+}// Simple JavaScript for handling any future interactions or dynamic behaviors
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Website Loaded and Ready!");
+});
+
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    main {
+        padding: 10px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 24px;
+    }
+
+    p {
+        font-size: 14px;
+    }
+}
+// Simple JavaScript for handling any future interactions or dynamic behaviors
+
+document.addEventListener('DOMContentLoaded', function() {
+    console.log("Website Loaded and Ready!");
+});
